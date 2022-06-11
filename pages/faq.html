@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/color-1.css">
+
+  <title>Shopzilla | Online Shopping</title>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="../index.html" class="nav-logo">
+        <i class="fa-solid fa-hat-cowboy nav-logo-icon"></i>
+        <span class="logo-S">S</span>hopzilla
+      </a>
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="../index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="shop.html" class="nav-link">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a href="cart.html" class="nav-link">Cart</a>
+          </li>
+          <li class="nav-item">
+            <a href="blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="faq.html" class="nav-link active-link">FAQ's</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+
+        <div class="nav-close" id="nav-close">
+          <i class="fa-solid fa-x"></i>
+        </div>
+      </div>
+
+      <div class="nav-btns">
+        <div class="login-toggle" id="login-toggle">
+          <i class="fa-solid fa-user"></i>
+        </div>
+        <div class="nav-shop" id="cart-shop">
+          <i class="fa-solid fa-cart-arrow-down"></i>
+        </div>
+        <div class="nav-toggle" id="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <!-- CART -->
+  <div class="cart" id="cart">
+    <i class="fa-solid fa-x cart-close" id="cart-close"></i>
+    <h2 class="cart-title-center">My Cart</h2>
+    <div class="cart-container">
+      <article class="cart-card">
+        <div class="cart-box">
+          <img src="../images/cart-1.png" alt="" class="cart-img">
+        </div>
+        <div class="cart-details">
+          <h3 class="cart-title">WindBreaker</h3>
+          <span class="cart-price">₹2499</span>
+          <div class="cart-amount">
+            <div class="cart-amount-content">
+              <span class="cart-amount-box">
+                <i class="fa-solid fa-minus"></i>
+              </span>
+              <span class="cart-amount-number">1</span>
+              <span class="cart-amount-box">
+                <i class="fa-solid fa-plus"></i>
+              </span>
+            </div>
+            <i class="fa-solid fa-trash-can cart-amount-trash"></i>
+          </div>
+        </div>
+      </article>
+
+      <article class="cart-card">
+        <div class="cart-box">
+          <img src="../images/cart-2.png" alt="" class="cart-img">
+        </div>
+        <div class="cart-details">
+          <h3 class="cart-title">Cardigan Hoodie</h3>
+          <span class="cart-price">₹1499</span>
+          <div class="cart-amount">
+            <div class="cart-amount-content">
+              <span class="cart-amount-box">
+                <i class="fa-solid fa-minus"></i>
+              </span>
+              <span class="cart-amount-number">1</span>
+              <span class="cart-amount-box">
+                <i class="fa-solid fa-plus"></i>
+              </span>
+            </div>
+            <i class="fa-solid fa-trash-can cart-amount-trash"></i>
+          </div>
+        </div>
+      </article>
+
+      <article class="cart-card">
+        <div class="cart-box">
+          <img src="../images/cart-3.png" alt="" class="cart-img">
+        </div>
+        <div class="cart-details">
+          <h3 class="cart-title">HH Jacket</h3>
+          <span class="cart-price">₹1999</span>
+          <div class="cart-amount">
+            <div class="cart-amount-content">
+              <span class="cart-amount-box">
+                <i class="fa-solid fa-minus"></i>
+              </span>
+              <span class="cart-amount-number">1</span>
+              <span class="cart-amount-box">
+                <i class="fa-solid fa-plus"></i>
+              </span>
+            </div>
+            <i class="fa-solid fa-trash-can cart-amount-trash"></i>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="cart-prices">
+      <span class="cart-prices-item">3 item</span>
+      <span class="cart-prices-total">₹5997</span>
+    </div>
+  </div>
+
+  <!-- LOGIN -->
+  <div class="login" id="login">
+    <i class="fa-solid fa-x login-close" id="login-close"></i>
+    <h2 class="login-title-center">Login</h2>
+    <form action="" class="login-form grid">
+      <div class="login-content">
+        <label for="" class="login-label">Email</label>
+        <input type="email" class="login-input">
+      </div>
+
+      <div class="login-content">
+        <label for="" class="login-label">Password</label>
+        <input type="password" class="login-input">
+      </div>
+
+      <div>
+        <a href="#" class="button">Sign In</a>
+      </div>
+
+      <div>
+        <p class="signup">Not a member? <a href="pages/registration.html">Sign Up Now</a></p>
+      </div>
+    </form>
+  </div>
+
+  <!-- MAIN -->
+  <main class="main">
+    
+    <section class="qna section container">
+      <h2 class="breadcrumb-title">FAQ's Page</h2>
+      <h3 class="breadcrumb-subtitle">Home > <span>FAQ's</span></h3>
+
+      <div class="qna-container grid">
+        <div class="qna-group">
+          <div class="qna-item">
+            <header class="qna-header">
+              <i class="fa-solid fa-plus qna-icon"></i>
+              <h3 class="qna-item-title">What is Shopzilla?</h3>
+            </header>
+            <div class="qna-content">
+              <p class="qna-desc">
+                Shopzilla is a well-known e-commerce website and a fashion hub. It has been referred to as "one of the most influential economic and cultural forces in the world" and is one of the world's most valuable brands.
+              </p>
+            </div>
+          </div>
+          
+          <div class="qna-item">
+            <header class="qna-header">
+              <i class="fa-solid fa-plus qna-icon"></i>
+              <h3 class="qna-item-title">How do I create an account on Shopzilla</h3>
+            </header>
+            <div class="qna-content">
+              <p class="qna-desc">
+                You can create your account on Shopzilla by entering and verifying your mobile number. Click on "Create New Account / Sign Up Now" after that and fill up the form to create your Shopzilla account.
+              </p>
+            </div>
+          </div>
+
+          <div class="qna-item">
+            <header class="qna-header">
+              <i class="fa-solid fa-plus qna-icon"></i>
+              <h3 class="qna-item-title">How are orders placed on Shopzilla delivered to me?</h3>
+            </header>
+            <div class="qna-content">
+              <p class="qna-desc">
+                All orders placed on Shopzilla are dispatched through our own courier service - Shopzilla Logistics or through other courier partners such as Blue Dart, Delhivery Etc.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="qna-group">
+          <div class="qna-item">
+            <header class="qna-header">
+              <i class="fa-solid fa-plus qna-icon"></i>
+              <h3 class="qna-item-title">How can I pay for my order at Shopzilla?</h3>
+            </header>
+            <div class="qna-content">
+              <p class="qna-desc">
+                We support the following payment options at Shopzilla: Cash On Delivery (available in selected pin codes), Credit Card, Debit Card, Net banking, Gift Card, Wallet.
+              </p>
+            </div>
+          </div>
+
+          <div class="qna-item">
+            <header class="qna-header">
+              <i class="fa-solid fa-plus qna-icon"></i>
+              <h3 class="qna-item-title">What is Shopzilla's Cancellation Policy?</h3>
+            </header>
+            <div class="qna-content">
+              <p class="qna-desc">
+                You can now cancel an order when it is in packed/shipped status, as long as the cancel option is available on App/Website/M-site. This includes items purchased on sale also. Any amount paid will be credited into the same payment mode using which the payment was made.
+              </p>
+            </div>
+          </div>
+
+          <div class="qna-item">
+            <header class="qna-header">
+              <i class="fa-solid fa-plus qna-icon"></i>
+              <h3 class="qna-item-title">Does Shopzilla deliver products outside India?</h3>
+            </header>
+            <div class="qna-content">
+              <p class="qna-desc">
+                No. At this point, Shopzilla delivers products only within India.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer section">
+      <div class="footer-container container grid">
+        <!-- FOOTER CONTENT 1 -->
+        <div class="footer-content">
+          <a href="#" class="footer-logo">
+            <i class="fa-solid fa-hat-cowboy footer-logo-icon"></i>
+            Shopzilla
+          </a>
+          <p class="footer-desc">Enjoy the biggest sale<br>of your life.</p>
+          <div class="footer-social">
+            <a href="#" class="footer-social-link"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="footer-social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="footer-social-link"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+
+        <!-- FOOTER CONTENT 2 -->
+        <div class="footer-content">
+          <h3 class="footer-title">About</h3>
+          <ul class="footer-links">
+            <li><a href="../pages/about.html" class="footer-link">About Us</a></li>
+            <li><a href="#" class="footer-link">Customer Support</a></li>
+            <li><a href="#" class="footer-link">Support Center</a></li>
+          </ul>
+        </div>
+
+        <!-- FOOTER CONTENT 3 -->
+        <div class="footer-content">
+          <h3 class="footer-title">Our Services</h3>
+          <ul class="footer-links">
+            <li><a href="#" class="footer-link">Shop</a></li>
+            <li><a href="#" class="footer-link">Discounts</a></li>
+            <li><a href="#" class="footer-link">Become a Seller</a></li>
+          </ul>
+        </div>
+
+        <!-- FOOTER CONTENT 4 -->
+        <div class="footer-content">
+          <h3 class="footer-title">Our Company</h3>
+          <ul class="footer-links">
+            <li><a href="#" class="footer-link">Register</a></li>
+            <li><a href="#" class="footer-link">Contact Us</a></li>
+            <li><a href="../pages/about.html" class="footer-link">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <span class="footer-copy">&copy; Shopzilla. All rights reserved</span>
+  </footer>
+
+  <!-- SCROLL UP -->
+  <a href="#" class="scrollup" id="scroll-up">
+      <i class="fa-regular fa-circle-up scroll-up-icon"></i>
+  </a>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="../js/script.js"></script>
+</body>
+</html>

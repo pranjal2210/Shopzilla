@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/color-1.css">
+
+  <title>Shopzilla | Online Shopping</title>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="../index.html" class="nav-logo">
+        <i class="fa-solid fa-hat-cowboy nav-logo-icon"></i>
+        <span class="logo-S">S</span>hopzilla
+      </a>
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="../index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="shop.html" class="nav-link">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a href="cart.html" class="nav-link">Cart</a>
+          </li>
+          <li class="nav-item">
+            <a href="blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="faq.html" class="nav-link">FAQ's</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link active-link">Contact</a>
+          </li>
+        </ul>
+
+        <div class="nav-close" id="nav-close">
+          <i class="fa-solid fa-x"></i>
+        </div>
+      </div>
+
+      <div class="nav-btns">
+        <div class="login-toggle" id="login-toggle">
+          <i class="fa-solid fa-user"></i>
+        </div>
+        <div class="nav-shop" id="cart-shop">
+          <i class="fa-solid fa-cart-arrow-down"></i>
+        </div>
+        <div class="nav-toggle" id="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <!-- CART -->
+  <div class="cart" id="cart">
+    <i class="fa-solid fa-x cart-close" id="cart-close"></i>
+    <h2 class="cart-title-center">My Cart</h2>
+    <div class="cart-container">
+      <article class="cart-card">
+        <div class="cart-box">
+          <img src="../images/cart-1.png" alt="" class="cart-img">
+        </div>
+        <div class="cart-details">
+          <h3 class="cart-title">WindBreaker</h3>
+          <span class="cart-price">₹2499</span>
+          <div class="cart-amount">
+            <div class="cart-amount-content">
+              <span class="cart-amount-box">
+                <i class="fa-solid fa-minus"></i>
+              </span>
+              <span class="cart-amount-number">1</span>
+              <span class="cart-amount-box">
+                <i class="fa-solid fa-plus"></i>
+              </span>
+            </div>
+            <i class="fa-solid fa-trash-can cart-amount-trash"></i>
+          </div>
+        </div>
+      </article>
+
+      <article class="cart-card">
+        <div class="cart-box">
+          <img src="../images/cart-2.png" alt="" class="cart-img">
+        </div>
+        <div class="cart-details">
+          <h3 class="cart-title">Cardigan Hoodie</h3>
+          <span class="cart-price">₹1499</span>
+          <div class="cart-amount">
+            <div class="cart-amount-content">
+              <span class="cart-amount-box">
+                <i class="fa-solid fa-minus"></i>
+              </span>
+              <span class="cart-amount-number">1</span>
+              <span class="cart-amount-box">
+                <i class="fa-solid fa-plus"></i>
+              </span>
+            </div>
+            <i class="fa-solid fa-trash-can cart-amount-trash"></i>
+          </div>
+        </div>
+      </article>
+
+      <article class="cart-card">
+        <div class="cart-box">
+          <img src="../images/cart-3.png" alt="" class="cart-img">
+        </div>
+        <div class="cart-details">
+          <h3 class="cart-title">HH Jacket</h3>
+          <span class="cart-price">₹1999</span>
+          <div class="cart-amount">
+            <div class="cart-amount-content">
+              <span class="cart-amount-box">
+                <i class="fa-solid fa-minus"></i>
+              </span>
+              <span class="cart-amount-number">1</span>
+              <span class="cart-amount-box">
+                <i class="fa-solid fa-plus"></i>
+              </span>
+            </div>
+            <i class="fa-solid fa-trash-can cart-amount-trash"></i>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="cart-prices">
+      <span class="cart-prices-item">3 item</span>
+      <span class="cart-prices-total">₹5997</span>
+    </div>
+  </div>
+
+  <!-- LOGIN -->
+  <div class="login" id="login">
+    <i class="fa-solid fa-x login-close" id="login-close"></i>
+    <h2 class="login-title-center">Login</h2>
+    <form action="" class="login-form grid">
+      <div class="login-content">
+        <label for="" class="login-label">Email</label>
+        <input type="email" class="login-input">
+      </div>
+
+      <div class="login-content">
+        <label for="" class="login-label">Password</label>
+        <input type="password" class="login-input">
+      </div>
+
+      <div>
+        <a href="#" class="button">Sign In</a>
+      </div>
+
+      <div>
+        <p class="signup">Not a member? <a href="pages/registration.html">Sign Up Now</a></p>
+      </div>
+    </form>
+  </div>
+
+  <!-- MAIN -->
+  <main class="main">
+    
+    <section class="contact section container">
+      <h2 class="breadcrumb-title">Contact Page</h2>
+      <h3 class="breadcrumb-subtitle">Home > <span>Contact Us</span></h3>
+
+      <div class="contact-container grid">
+        <div class="contact-socials">
+          <div class="contact-info">
+            <i class="fa-solid fa-phone contact-icon"></i>
+            <div>
+              <h3 class="contact-title">Call Us</h3>
+              <span class="contact-subtitle">+91 1404207869</span>
+            </div>
+          </div>
+
+          <div class="contact-info">
+            <i class="fa-solid fa-envelope contact-icon"></i>
+            <div>
+              <h3 class="contact-title">Mail Us</h3>
+              <span class="contact-subtitle">support@shopzilla.com</span>
+            </div>
+          </div>
+
+          <div class="contact-info">
+            <i class="fa-solid fa-location-dot contact-icon"></i>
+            <div>
+              <h3 class="contact-title">Head Office</h3>
+              <span class="contact-subtitle">B-1/69, Tower #1, 7th Floor, Block B, Industrial Area, Sector 69, Noida, Uttar Pradesh 201309</span>
+            </div>
+          </div>
+
+          <div class="contact-info">
+            <i class="fa-brands fa-facebook-f contact-icon"></i>
+            <div>
+              <h3 class="contact-title">Facebook</h3>
+              <span class="contact-subtitle">Shopzilla_IN</span>
+            </div>
+          </div>
+
+          <div class="contact-info">
+            <i class="fa-brands fa-twitter contact-icon"></i>
+            <div>
+              <h3 class="contact-title">Twitter</h3>
+              <span class="contact-subtitle">Shopzilla_IN</span>
+            </div>
+          </div>
+
+          <div class="contact-info">
+            <i class="fa-brands fa-instagram contact-icon"></i>
+            <div>
+              <h3 class="contact-title">Instagram</h3>
+              <span class="contact-subtitle">Shopzilla_IN</span>
+            </div>
+          </div>
+        </div>
+
+        <form action="" class="contact-form grid">
+          <div class="contact-inputs grid">
+            <div class="contact-content">
+              <label for="" class="contact-label">Name</label>
+              <input type="text" name="" id="" class="contact-input">
+            </div>
+
+            <div class="contact-content">
+              <label for="" class="contact-label">Email</label>
+              <input type="email" name="" id="" class="contact-input">
+            </div>
+          </div>
+
+          <div class="contact-content">
+            <label for="" class="contact-label">Subject</label>
+            <input type="text" name="" id="" class="contact-input">
+          </div>
+
+          <div class="contact-content">
+            <label for="" class="contact-label">Message</label>
+            <textarea name="" id="" cols="0" rows="5" class="contact-input"></textarea>
+          </div>
+
+          <div>
+            <a href="#" class="button">Send Message</a>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer section">
+      <div class="footer-container container grid">
+        <!-- FOOTER CONTENT 1 -->
+        <div class="footer-content">
+          <a href="#" class="footer-logo">
+            <i class="fa-solid fa-hat-cowboy footer-logo-icon"></i>
+            Shopzilla
+          </a>
+          <p class="footer-desc">Enjoy the biggest sale<br>of your life.</p>
+          <div class="footer-social">
+            <a href="#" class="footer-social-link"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="footer-social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="footer-social-link"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+
+        <!-- FOOTER CONTENT 2 -->
+        <div class="footer-content">
+          <h3 class="footer-title">About</h3>
+          <ul class="footer-links">
+            <li><a href="../pages/about.html" class="footer-link">About Us</a></li>
+            <li><a href="#" class="footer-link">Customer Support</a></li>
+            <li><a href="#" class="footer-link">Support Center</a></li>
+          </ul>
+        </div>
+
+        <!-- FOOTER CONTENT 3 -->
+        <div class="footer-content">
+          <h3 class="footer-title">Our Services</h3>
+          <ul class="footer-links">
+            <li><a href="#" class="footer-link">Shop</a></li>
+            <li><a href="#" class="footer-link">Discounts</a></li>
+            <li><a href="#" class="footer-link">Become a Seller</a></li>
+          </ul>
+        </div>
+
+        <!-- FOOTER CONTENT 4 -->
+        <div class="footer-content">
+          <h3 class="footer-title">Our Company</h3>
+          <ul class="footer-links">
+            <li><a href="#" class="footer-link">Register</a></li>
+            <li><a href="#" class="footer-link">Contact Us</a></li>
+            <li><a href="../pages/about.html" class="footer-link">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <span class="footer-copy">&copy; Shopzilla. All rights reserved</span>
+  </footer>
+
+  <!-- SCROLL UP -->
+  <a href="#" class="scrollup" id="scroll-up">
+      <i class="fa-regular fa-circle-up scroll-up-icon"></i>
+  </a>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="../js/script.js"></script>
+</body>
+</html>
